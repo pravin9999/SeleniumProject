@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [a]">
+  <test name="Flipkart(failed)">
+    <classes>
+      <class name="com.AutomationScript.Home">
+        <methods>
+          <include name="launchURL"/>
+        </methods>
+      </class> <!-- com.AutomationScript.Home -->
+    </classes>
+  </test> <!-- Flipkart(failed) -->
+</suite> <!-- Failed suite [a] -->

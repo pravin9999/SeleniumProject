@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression_Suite" parallel="true">
+<parameter name="userid" value="arpit selenium"/>
+<parameter name="password" value="pass123"/>
+  <test name="Test_01">
+    <classes>
+      <class name="pKG_Batch_1.Class1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test_02">
+    <classes>
+      <class name="pKG_Batch_2.Class2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test_03">
+  <parameter name="userid" value="Admin selenium"/>
+  <parameter name="password" value="Admin123"/>
+  
+    <classes>
+      <class name="pKG_Batch_3.Class3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
